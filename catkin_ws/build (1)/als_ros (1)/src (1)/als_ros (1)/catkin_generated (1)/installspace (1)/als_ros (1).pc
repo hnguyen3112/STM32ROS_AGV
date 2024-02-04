@@ -1,0 +1,8 @@
+prefix=/home/ubt/catkin_ws/install
+
+Name: als_ros
+Description: Description of als_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

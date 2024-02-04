@@ -1,0 +1,25 @@
+<launch>
+	<param name="port" type="str" value="/dev/ttyUSB1"/>
+
+	<!--DESCRIPTION/-->
+	<!--include file="$(find bibot_description)/launch/bibot_description.launch"/-->	
+	
+	<!--TF/-->
+	<!--node pkg="tf" type="static_transform_publisher" name="map_to_odom_broadcaster" args="0 0 0 0 0 0 map odom 100"/-->
+	<!--node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0.15 0 0 0 base_link laser 100"/-->
+	
+	<!--DIFF_DRIVE-->
+	<!--node pkg="differential_drive" type="diff_tf.py" name="diff_tf" output="screen">
+	</node-->
+	
+	<!--COMMUNICATION-->
+	<node pkg="bibot_communication" type="bibot_communication.py" name="communication" >
+	</node>
+	
+	<!--KEYBOARD-->
+	<node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" output="screen">
+	</node>
+	
+	<!--RPLIDAR-->
+	<include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+</launch>

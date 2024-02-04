@@ -1,0 +1,19 @@
+# pack-refs with: peeled fully-peeled sorted 
+4e440b7d975ad7cfafdedcc0e0590f166a3ae962 refs/remotes/origin/hector_slam
+7ff4acb7b4828fe34e37724038d0e3a461762c0a refs/remotes/origin/indigo-devel
+5b8c404b0f83b99994060f6250c332919556b790 refs/remotes/origin/jackal_test
+7ff4acb7b4828fe34e37724038d0e3a461762c0a refs/remotes/origin/jade-devel
+48a6cfc22708988f2bf80f016721220f363603f8 refs/remotes/origin/kinetic-devel
+077e1693ba7cc5d97928695457ec66f7570d07e0 refs/remotes/origin/lunar-devel
+7ff4acb7b4828fe34e37724038d0e3a461762c0a refs/remotes/origin/master
+0a9df02bdd05218a01849a3abe6e8d81a0dc5b95 refs/remotes/origin/melodic-devel
+ee26f25aa7c3859c4a28e06d1e9ea6ebc1b0df64 refs/remotes/origin/noetic-devel
+a0e81def983de1d6f2d4b2e0b6a6a4b71a9bb0b6 refs/remotes/origin/rosbook
+cb84a377f1587c83fbba74ede360a0c0432aa410 refs/remotes/origin/rosbook_volume3
+1ab8ad6618362d6f86e99b1411e5fce605e66768 refs/tags/0.0.1
+117e21bb2d9571dea334ce7b013925457311c9cb refs/tags/0.0.2
+782e2de4f0d744e3cb7120df8fb23d94810cf343 refs/tags/0.2.0
+1249f1ff61e05294660b92556d529476b70a0f28 refs/tags/0.2.1
+67f96a077068a87c4b6ac1fd1713e53f3191803a refs/tags/0.2.2
+077e1693ba7cc5d97928695457ec66f7570d07e0 refs/tags/0.2.3
+48a6cfc22708988f2bf80f016721220f363603f8 refs/tags/0.2.4

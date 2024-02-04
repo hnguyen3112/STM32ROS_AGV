@@ -1,0 +1,3 @@
+<launch>
+	<param name="robot_description" textfile="$(find bibot_description)/urdf/bibot.urdf" />
+</launch>

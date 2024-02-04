@@ -1,0 +1,8 @@
+prefix=/home/ubt/catkin_ws/devel
+
+Name: mcl_ros
+Description: Description of mcl_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

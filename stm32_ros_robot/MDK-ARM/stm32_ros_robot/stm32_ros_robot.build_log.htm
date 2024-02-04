@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Admin\Downloads\Compressed\STM32\STM32_driver\stm32_ros_robot\MDK-ARM\stm32_ros_robot.uvprojx
+Project File Date:  11/30/2023
+
+<h2>Output:</h2>
+Build target 'stm32_ros_robot'
+assembling startup_stm32f103xb.s...
+compiling main.c...
+../Src/main.c(32): warning:  #1295-D: Deprecated declaration get_dht - give arg types
+  void get_dht();
+../Src/main.c(34): warning:  #1295-D: Deprecated declaration servo_0 - give arg types
+  void servo_0();  // up 
+../Src/main.c(35): warning:  #1295-D: Deprecated declaration servo_90 - give arg types
+  void servo_90(); // down
+../Src/main.c(37): warning:  #1295-D: Deprecated declaration send_data - give arg types
+  void send_data();
+../Src/main.c(267): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin (DHT11_PORT, DHT11_PIN, 0);   // pull the pin low
+../Src/main.c(269): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin (DHT11_PORT, DHT11_PIN, 1);   // pull the pin high
+../Src/main.c(334): warning:  #188-D: enumerated type mixed with another type
+                HAL_GPIO_WritePin(OUT1_GPIO_Port,OUT1_Pin,1);
+../Src/main.c(336): warning:  #188-D: enumerated type mixed with another type
+                HAL_GPIO_WritePin(OUT1_GPIO_Port,OUT1_Pin,0);
+../Src/main.c(342): warning:  #188-D: enumerated type mixed with another type
+                HAL_GPIO_WritePin(OUT1_GPIO_Port,OUT1_Pin,1);
+../Src/main.c(344): warning:  #188-D: enumerated type mixed with another type
+                HAL_GPIO_WritePin(OUT1_GPIO_Port,OUT1_Pin,0);
+../Src/main.c(631): warning:  #177-D: function "MX_USART1_UART_Init" was declared but never referenced
+  static void MX_USART1_UART_Init(void)
+../Src/main.c: 11 warnings, 0 errors
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling system_stm32f1xx.c...
+linking...
+Program Size: Code=13140 RO-data=292 RW-data=148 ZI-data=1436  
+FromELF: creating hex file...
+"stm32_ros_robot\stm32_ros_robot.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.0.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Admin\Downloads\Compressed\STM32\STM32_driver\stm32_ros_robot\MDK-ARM\RTE
+  C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\4.1.0\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

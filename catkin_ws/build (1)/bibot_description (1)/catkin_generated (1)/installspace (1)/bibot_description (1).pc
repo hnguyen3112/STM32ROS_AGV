@@ -1,0 +1,8 @@
+prefix=/home/ubt/catkin_ws/install
+
+Name: bibot_description
+Description: Description of bibot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
